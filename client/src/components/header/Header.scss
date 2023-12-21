@@ -1,0 +1,68 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@include media-breakpoint-up(xm) {
+  html {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+  .features {
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.2rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .features {
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.3rem;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+
+  .features {
+    display: block;
+  }
+}
+
+.bg-main {
+  background-color: rgb(245, 166, 185, 0.75);
+  backdrop-filter: blur(10px);
+
+  .logo {
+    color: #000000;
+    box-sizing: content-box;
+  }
+
+  .name-page {
+    color: #000000;
+    font-size: 1.5rem;
+  }
+
+  .feature {
+    text-decoration: none;
+  }
+
+  .login {
+    font-size: 0.75rem;
+    text-decoration: underline;
+  }
+}

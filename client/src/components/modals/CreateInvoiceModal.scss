@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.cus-btn {
+  padding: 2px 5px;
+  background-color: rgb(245, 166, 185);
+  border: none;
+  border-radius: 5px;
+}
+
+.x-cus-btn{
+  padding: 0;
+  border: none;
+  background: none;
+}
